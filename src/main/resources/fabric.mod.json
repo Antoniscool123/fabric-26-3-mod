@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "fabric_26_3_mod",
+  "version": "${version}",
+  "name": "Fabric 26.3 Mod",
+  "description": "Fabric 1.16.5 mod template using Fabric API 0.26.3",
+  "authors": [
+    "Antoniscool123"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Antoniscool123/fabric-26-3-mod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.mod.ExampleMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": ">=0.26.3",
+    "minecraft": "1.16.5"
+  }
+}
